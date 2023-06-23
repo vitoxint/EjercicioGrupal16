@@ -35,11 +35,11 @@ public class Cliente extends Usuario{
         super.analizarUsuario();
 
         System.out.println(
-                " Nombres:'" + nombres + '\n' +
-                        "Apellidos: '" + apellidos + '\n' +
-                        "Telefono :" + telefono +
+                "Nombres:" + nombres + '\n' +
+                        "Apellidos: " + apellidos + '\n' +
+                        "Telefono :" + telefono + '\n' +
                         "Afp:" + afp + '\n' +
-                        "Salud:" + salud +
+                        "Salud:" + salud + '\n' +
                         "Direccion:" + direccion + '\n' +
                         "Comuna:" + comuna + '\n' +
                         "Edad:" + edad);
